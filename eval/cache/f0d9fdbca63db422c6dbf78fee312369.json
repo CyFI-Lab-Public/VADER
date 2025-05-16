@@ -1,0 +1,29 @@
+{
+    "status": 200,
+    "content": "@font-face{font-family:appleLogo;src:local(Lucida Grande);unicode-range:U+F8FF}html{height:100%;overflow:auto}body{background:#fff;justify-content:center;align-items:center;height:auto;min-height:100%;margin:0;padding:2rem 1rem 3.6rem;font-size:16px;line-height:1.4rem;display:flex}body.file,body.image{color:#fff;background:#222}body.post{display:block;overflow:auto}.file_container{margin:0 auto;box-shadow:none!important}.file_container.image_container{padding-top:1rem;padding-bottom:3.6rem}.file_title{color:#1d1c1d;letter-spacing:-.03rem;text-rendering:optimizeSpeed;padding:0;font-size:34px;font-weight:900;line-height:43px}.file_title+.divider{border-top:1px solid #ddd;width:60px;margin-bottom:1.65rem}.generic_container{width:100%}.generic_container a{color:#1d1c1d}.image_container{background:0 0;justify-content:center;align-items:center;min-height:100vh;display:flex;position:absolute;top:0;left:1rem;right:1rem}.image_container img{max-width:100%;max-height:100%}.snippet_container,.post_container{border:none;width:100%}.snippet_container [for=snippet_wrap]{float:right;margin-top:1.375rem}@media print{.snippet_container [for=snippet_wrap]{display:none}}.snippet_container .snippet_body{border:1px solid #0000001a;border-radius:6px}.post_container{padding:0;font-size:18px;line-height:1.9rem;position:static}.post_container .post_body{padding:0;position:static}.post_container .post_body>div{max-width:none}#footer{z-index:100;color:#1d1c1d;text-align:left;background:#fff;border-top:1px solid #ddd;height:40px;padding:.5rem 1rem .75rem;position:fixed;bottom:0;left:0;right:0}#brand{color:#616061;font-size:.8rem;line-height:27px;position:absolute;top:.45rem;right:1rem}@media only screen and (width<=479px){#brand_label{display:none}}#logo{float:right;background-image:url(/80588/img/slack_logo_240_vogue.png);background-repeat:no-repeat;background-size:100%;width:90px;height:27px;margin-left:.7rem;display:inline-block}#title{white-space:nowrap;text-overflow:ellipsis;margin:0 228px 0 0;line-height:24px;overflow:hidden}@media only screen and (width<=479px){#title{margin-right:98px}}#meta{color:#616061;margin-left:.25rem;font-size:.8rem}",
+    "headers": {
+        "Content-Type": "text/css",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Date": "Wed, 15 Jan 2025 17:14:48 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD",
+        "Last-Modified": "Mon, 28 Oct 2024 18:43:39 GMT",
+        "Server": "AmazonS3",
+        "x-amz-server-side-encryption": "AES256",
+        "x-amz-meta-s3cmd-attrs": "md5:faf04772f8876a25f5465047edf2e4db",
+        "Cache-Control": "max-age=315360000, public",
+        "Expires": "Sun, 10 Jan 2038 23:30:00 GMT",
+        "Content-Encoding": "gzip",
+        "ETag": "W/\"faf04772f8876a25f5465047edf2e4db\"",
+        "Vary": "accept-encoding",
+        "X-Cache": "Hit from cloudfront",
+        "Via": "1.1 93fe35734bf669b0add5d25ede099178.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "ATL59-P12",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "ppW9o3bIpr_A16fT4sTOK08qtVXr50dV-AMG8MxrXOJ6gl3HQA3J4w==",
+        "Age": "9774656",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "Timing-Allow-Origin": "*"
+    }
+}

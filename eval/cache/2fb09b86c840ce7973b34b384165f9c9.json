@@ -1,0 +1,21 @@
+{
+    "status": 200,
+    "content": "\u0003\u000e\ufffd)]}'\n{\"update\":{\"promos\":{}}}\u0003",
+    "headers": {
+        "Version": "753473087",
+        "Content-Type": "application/json; charset=UTF-8",
+        "X-Content-Type-Options": "nosniff",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"gws\"",
+        "Report-To": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+        "Accept-CH": "Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+        "Permissions-Policy": "unload=()",
+        "Content-Disposition": "attachment; filename=\"f.txt\"",
+        "Content-Encoding": "br",
+        "Date": "Thu, 08 May 2025 20:25:46 GMT",
+        "Server": "gws",
+        "Content-Length": "33",
+        "X-XSS-Protection": "0",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    }
+}

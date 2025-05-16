@@ -1,0 +1,28 @@
+{
+    "status": 200,
+    "content": "@font-face{font-family:appleLogo;src:local(Lucida Grande);unicode-range:U+F8FF}.CodeMirror{color:#1d1c1d;will-change:transform;background-color:#fff;border:1px solid #1d1c1d80;border-radius:6px;height:auto;transform:translateY(0);font-family:Monaco,Menlo,Consolas,Courier New,monospace!important}.CodeMirror pre{font-family:inherit;font-size:inherit;white-space:pre;word-wrap:normal;line-height:inherit;color:inherit;z-index:2;-webkit-tap-highlight-color:transparent;font-variant-ligatures:contextual;background:0 0;border-width:0;border-radius:0;margin:0;padding:0 4px;position:relative;overflow:visible}.CodeMirror .CodeMirror-sizer{line-height:1.5;font-size:13px!important}.CodeMirror .CodeMirror-gutters{background-color:#fbfbfb;border-color:#ebebeb}.CodeMirror .CodeMirror-code{font-size:.8rem}.CodeMirror .CodeMirror-linenumber{color:#1d1c1db3}.CodeMirror:hover,.CodeMirror:focus{border-color:#1d1c1db3}#file_page .CodeMirror,#snippet_dialog .CodeMirror{height:12rem}",
+    "headers": {
+        "Content-Type": "text/css",
+        "Content-Length": "973",
+        "Connection": "keep-alive",
+        "Date": "Mon, 03 Mar 2025 18:02:49 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD",
+        "Last-Modified": "Wed, 13 Nov 2024 17:52:14 GMT",
+        "ETag": "\"a318eba96a8b5cbc359be5c2cf8ff82c\"",
+        "x-amz-server-side-encryption": "AES256",
+        "x-amz-meta-s3cmd-attrs": "md5:a318eba96a8b5cbc359be5c2cf8ff82c",
+        "Cache-Control": "max-age=315360000, public",
+        "Expires": "Sun, 10 Jan 2038 23:30:00 GMT",
+        "Accept-Ranges": "bytes",
+        "Server": "AmazonS3",
+        "X-Cache": "Hit from cloudfront",
+        "Via": "1.1 93fe35734bf669b0add5d25ede099178.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "ATL59-P12",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "7Qus--zUSQ7n2iz54fynfSzPJWehYwRAGL5JnN4Lv-ioEhTgozCKLw==",
+        "Age": "5710976",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "Timing-Allow-Origin": "*"
+    }
+}

@@ -1,0 +1,1 @@
+"\n[\n    {\n        \"operation\": \"capture_after_pattern\",\n        \"params\": {\n            \"pattern\": \")))))\",\n            \"delimiter\": [\"\\n\", \"<\"]\n        }\n    },\n    {\n        \"operation\": \"base64_decode\",\n        \"params\": {\n            \"line_by_line\": true\n        }\n    }\n]\n"

@@ -1,0 +1,28 @@
+{
+    "status": 200,
+    "content": "\"use strict\";(self.webpackChunk_twitter_responsive_web=self.webpackChunk_twitter_responsive_web||[]).push([[\"node_modules_x-clients_features_messages_en_json\"],{166767:e=>{e.exports=JSON.parse('{\"<highlight>{replier}</highlight> to {sender}\":\"<highlight>{replier}</highlight> to {sender}\",\"<highlight>{replier}</highlight> to themself\":\"<highlight>{replier}</highlight> to themself\",\"<highlight>{replier}</highlight> to you\":\"<highlight>{replier}</highlight> to you\",\"<highlight>You</highlight> to {sender}\":\"<highlight>You</highlight> to {sender}\",\"<highlight>You</highlight> to yourself\":\"<highlight>You</highlight> to yourself\",\"A personal key that secures your messages.\":\"A personal key that secures your messages.\",\"Add people\":\"Add people\",\"After messages in this chat get read, they will vanish after the selected time below.\":\"After messages in this chat get read, they will vanish after the selected time below.\",\"All participants\":\"All participants\",\"An unknown error occurred.\":\"An unknown error occurred.\",\"Confirm your new passcode\":\"Confirm your new passcode\",\"Confirm your passcode\":\"Confirm your passcode\",\"Conversation info\":\"Conversation info\",\"Could not find your registration. Please try again later.\":\"Could not find your registration. Please try again later.\",\"Couldn\\'t load message\":\"Couldn\\'t load message\",\"Create a 4-digit passcode\":\"Create a 4-digit passcode\",\"Create a new passcode\":\"Create a new passcode\",\"Edit\":\"Edit\",\"Enter your passcode\":\"Enter your passcode\",\"Group info\":\"Group info\",\"Invalid authentication. Please try again.\":\"Invalid authentication. Please try again.\",\"Live on X\":\"Live on X\",\"Make sure to remember it, as we will occasionally need you to verify.\":\"Make sure to remember it, as we will occasionally need you to verify.\",\"Message\":\"Message\",\"No authentication token available. We are looking into it.\":\"No authentication token available. We are looking into it.\",\"None\":\"None\",\"People\":\"People\",\"Rate limit exceeded. Please try again later.\":\"Rate limit exceeded. Please try again later.\",\"Retry\":\"Retry\",\"Something was configured incorrectly. We are looking into it.\":\"Something was configured incorrectly. We are looking into it.\",\"Something went wrong while loading Chat. Please try again later.\":\"Something went wrong while loading Chat. Please try again later.\",\"Something went wrong.\":\"Something went wrong.\",\"Something went wrong. Please check your network connection and try again.\":\"Something went wrong. Please check your network connection and try again.\",\"Something went wrong. Try reloading.\":\"Something went wrong. Try reloading.\",\"The PIN codes did not match. Please start over.\":\"The PIN codes did not match. Please start over.\",\"The PIN you entered was incorrect\":\"The PIN you entered was incorrect\",\"The PIN you entered was incorrect. After {remainingGuesses} more incorrect attempts, your messages will be locked.\":\"The PIN you entered was incorrect. After {remainingGuesses} more incorrect attempts, your messages will be locked.\",\"To ensure you remember your PIN, we\\'ll request it periodically. These prompts will become less frequent over time.\":\"To ensure you remember your PIN, we\\'ll request it periodically. These prompts will become less frequent over time.\",\"Unable to communicate with server. Please check your network connection and try again.\":\"Unable to communicate with server. Please check your network connection and try again.\",\"Unable to recover your keys. We are looking into it.\":\"Unable to recover your keys. We are looking into it.\",\"Vanishing Mode\":\"Vanishing Mode\",\"View all {number} members\":\"View all {number} members\",\"Your app is too old to use this feature. Please update.\":\"Your app is too old to use this feature. Please update.\",\"Your PIN is required to recover your encryption keys so we can decrypt your previous messages.\":\"Your PIN is required to recover your encryption keys so we can decrypt your previous messages.\"}')}}]);",
+    "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "1103",
+        "etag": "\"qAGJ+VDcPEvq8o+wYA5eoA==\"",
+        "perf": "7402827104",
+        "expires": "Thu, 30 Apr 2026 19:12:48 GMT",
+        "cache-tag": "twitter-assets,twitter-assets/bucket/0",
+        "content-type": "application/javascript; charset=utf-8",
+        "last-modified": "Wed, 30 Apr 2025 19:03:52 GMT",
+        "content-encoding": "gzip",
+        "x-transaction-id": "71df1de036d48a06",
+        "timing-allow-origin": "https://twitter.com, https://mobile.twitter.com",
+        "strict-transport-security": "max-age=631138519",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "X-Content-Type-Options": "nosniff",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 08 May 2025 20:25:46 GMT",
+        "X-Served-By": "cache-pdk-kfty8610064-PDK",
+        "X-Cache": "HIT",
+        "Vary": "Accept-Encoding",
+        "x-tw-cdn": "FT",
+        "Server-Timing": "x-cache;desc=HIT, x-tw-cdn;desc=FT"
+    }
+}

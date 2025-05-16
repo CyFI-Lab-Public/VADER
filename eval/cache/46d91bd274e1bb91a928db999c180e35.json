@@ -1,0 +1,27 @@
+{
+    "status": 200,
+    "content": "\"use strict\";(self.webpackChunk_twitter_responsive_web=self.webpackChunk_twitter_responsive_web||[]).push([[\"loader.NewTweetsPill\"],{560080:(e,t,r)=>{r.r(t),r.d(t,{default:()=>S});var a=r(202784),n=r(325686),l=r(308158),s=r(123588),o=r(731708),i=r(642153),c=r(58881),u=r(530732),d=r(392237);const p=d.default.create((e=>({root:{backgroundColor:e.colors.primary,borderRadius:e.borderRadii.infinite,boxShadow:e.boxShadows.small,justifyContent:\"center\",paddingHorizontal:e.spaces.space16,paddingVertical:e.spaces.space4},pillContent:{flexDirection:\"row\"},icon:{alignSelf:\"center\",color:e.colors.whiteOnColor,width:e.spaces.space20},facepile:{marginStart:e.spaces.space4,marginEnd:e.spaces.space2},pillText:{marginStart:e.spaces.space4,alignSelf:\"center\"}}))),m=function(e){const{ariaHidden:t,ariaLabel:r,label:l,onClick:m,userAvatarUrls:f}=e,h=c.Z.generate({backgroundColor:d.default.theme.colors.primary,color:d.default.theme.colors.whiteOnColor});return a.createElement(u.Z,{\"aria-hidden\":t,\"aria-label\":r,interactiveStyles:h,onClick:m,role:\"button\",style:p.root},a.createElement(n.Z,{style:p.pillContent},a.createElement(s.default,{style:p.icon}),f&&f.length>0?a.createElement(n.Z,{style:p.facepile,testID:\"userAvatars\"},a.createElement(i.Z,{borderColor:\"primary\",userAvatarSize:\"large\",userAvatarUrls:f})):null,a.createElement(o.ZP,{color:\"whiteOnColor\",numberOfLines:1,style:p.pillText,testID:\"pillLabel\"},l)))};var f=r(674132),h=r.n(f),w=r(24949),b=r(450681),g=r(668214),y=r(919022);const v=[],C=(e,t)=>t.alert&&t.alert.userIds||v,x=(0,g.Z)().propsFromState((()=>({userImageUrls:(0,w.P1)(y.ZP.selectAll,C,((e,t)=>t.length?(0,b.Z)(t.map((t=>{const r=e[t];return r?r.profile_image_url_https:void 0}))):v))}))).withAnalytics({component:\"new_tweet_prompt\"}),E=h().e04033be,T=h().hec711c0;const k=d.default.create((e=>{const t={marginVertical:e.spaces.space16,transitionDuration:\"0.15s\",transitionProperty:\"transform, opacity\"};return{hide:{...t,opacity:0,transform:[{translate3d:\"0, -3.5em, 0\"}],transitionTimingFunction:\"ease, ease, step-end\"},show:{...t,opacity:1,transform:[{translate3d:\"0, 0, 0\"}],transitionTimingFunction:\"ease, ease, step-start\",pointerEvents:\"all\"}}})),S=x((function(e){const{alert:t}=e,r=a.useRef(null),s=a.useRef(null),o=a.useRef(e);a.useEffect((()=>{o.current=e})),a.useEffect((()=>{if(t){const e=o.current.analytics,t=o.current.isAtNewest?.()??!1,a=o.current.remainVisibleIntervalMs??12e4,n=o.current.removeAlert;if(t)return void n();e.scribeAction(\"show\"),r.current=setTimeout((()=>{r.current=null,n()}),a)}return()=>{r.current&&clearTimeout(r.current)}}),[t]);const i=a.useCallback((()=>{const e=o.current.analytics,t=o.current.applyNewTweetsBarInstructions,r={action:\"click\",data:void 0};window.performance&&(r.data={time_since_launch:(window.performance.now()/1e3).toFixed(2)}),e.scribe(r);(o.current.scrollToTop??(()=>window.scrollTo(0,0)))(),s.current=setTimeout((()=>{s.current=null,t?.()}),200)}),[]);a.useEffect((()=>()=>{s.current&&clearTimeout(s.current)}),[]);const c=t?.richText?a.createElement(l.Z,{entities:t.richText.entities,text:t.richText.text}):e.label??T,u=t?k.show:k.hide;return a.createElement(n.Z,{role:\"status\",style:u},a.createElement(m,{ariaHidden:!t,ariaLabel:E,label:c,onClick:i,userAvatarUrls:e.userImageUrls}))}))},642153:(e,t,r)=>{r.d(t,{Z:()=>o});var a=r(202784),n=r(325686),l=r(392237),s=r(823161);const o=e=>{const{borderColor:t=\"cellBackground\",borderWidth:r=\"small\",style:o,userAvatarSize:c=\"medium\",userAvatarUrls:u,withIncreasedSpacing:d}=e,p=u.length,m=\"transparent\"===t;return a.createElement(n.Z,{style:[i.root,o,{height:s.default.getSizeStyle(c)?.height}]},u.map(((e,n)=>a.createElement(s.default,{backgroundColor:t,borderColor:t,borderWidth:m?\"none\":r,key:n,size:c,style:[0!==n&&{marginStart:-1*l.default.theme.spacesPx[d?\"space4\":\"space12\"]},{zIndex:p-n}],uri:e}))))},i=l.default.create((e=>({root:{flexDirection:\"row\",flexShrink:0,overflow:\"hidden\",flexWrap:\"wrap\",justifyContent:\"center\"}})))}}]);\n//# sourceMappingURL=https://ton.local.twitter.com/responsive-web-internal/sourcemaps/client-web/loader.NewTweetsPill.b17e948a.js.map",
+    "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "1905",
+        "etag": "\"m8GwTUQa9yBH2piRW8qe1Q==\"",
+        "perf": "7402827104",
+        "expires": "Thu, 23 Apr 2026 07:22:49 GMT",
+        "content-type": "application/javascript; charset=utf-8",
+        "last-modified": "Wed, 23 Apr 2025 06:22:56 GMT",
+        "content-encoding": "gzip",
+        "x-transaction-id": "afc30aaafcb42083",
+        "timing-allow-origin": "https://twitter.com, https://mobile.twitter.com",
+        "strict-transport-security": "max-age=631138519",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "X-Content-Type-Options": "nosniff",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 08 May 2025 20:25:44 GMT",
+        "X-Served-By": "cache-pdk-kfty8610064-PDK",
+        "X-Cache": "HIT",
+        "Vary": "Accept-Encoding",
+        "x-tw-cdn": "FT",
+        "Server-Timing": "x-cache;desc=HIT, x-tw-cdn;desc=FT"
+    }
+}

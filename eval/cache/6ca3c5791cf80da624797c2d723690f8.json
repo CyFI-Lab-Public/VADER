@@ -1,0 +1,26 @@
+{
+    "status": 200,
+    "content": "\ufffdPNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz\ufffd\u0000\u0000\u0001\ufffdIDATx\u0001\ufffdW1\ufffd\ufffd0\f\u0014w\r%t\ufffd<\u0001:J\ufffd@I\u0007%\u001d\ufffd\u0002\ufffd\u0003\ufffd\u0001t\ufffd\ufffdR\ufffd\ufffd\ufffd\u0004\ufffd\u0001\ufffdL\ufffd\ufffdfN\u0019\ufffd\ufffd\u0004;\ufffd&\r\ufffd\u0011\ufffdlbk\ufffdd\ufffd \"C5\ufffd\u0017\ufffdl\u001f\u0002\u0019\u0002\ufffd\u00c1\ufffd1\ufffd\ufffdF#\ufffd\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffdf\u001e\ufffd\ufffd\t\ufffd u\ufffd\u00fb\u076e\ufffdc\ufffd|\ufffd^\u001b\u0018\ufffd\u0017\ufffd\ufffd\u0005\ufffd\ufffda2p\ufffdX\ufffd\ufffdt:M\ufffd\ufffd\ufffd\ufffd\u0014|\ufffdZ\ufffd\u0004\ufffd\t\ufffd7\ufffdM2A\ufffd\ufffdK\ufffd\ufffdn\ufffd!\ufffd\ufffd|>O\u078b\ufffdt!\ufffd?`)\u0e16\ufffd\ufffdI\u0001\ufffd0{\\)\u0002\ufffd\u0014\ufffdRb\ufffd\u0014 \u0164=r\ufffd\ufffd\u0005\ufffd\u0002\ufffd%fK\ufffd\ufffd}\u0013\ufffd%\u0001,c\\J\u0019)\ufffdq0\ufffd\ufffdD+!`\ufffdj'\u00150\u0010@\ufffd\ufffdv\ub51c\ufffd\t\ufffd1\ufffd\f\u0098c\ufffd\ufffdG\u0000\ufffd\u0113\u001a\u0003+\ufffd\ufffd\ufffd\u0004\u0010\u0018\u0004\ufffd\n`\u0323\ufffd\ufffd\ufffdw\ufffd\u0013\ufffd\ufffd=\ufffdO\ufffd\ufffd\ufffdf\ufffd\u0019\ufffdaH\ufffd\ufffd%\ufffd\ufffd\ufffd15\ufffdM:\ufffdN\ufffdk^\ufffd\ufffd\ufffde\ufffdD\ufffd\ufffd[\u0015\ufffd\ufffd\ufffd&\ufffd]\ub715\u0013\ufffdD\ufffds\u0005h]\ufffd\ufffd*#\ufffd\ufffdn\u06b2s\ufffd\ufffd\ufffd\ufffd\ufffd\bppL.%)\u06b0\ufffd\u078c\ufffd\ufffd\u0012\u0018\ufffd\u05de\ufffd\u001b2\u019d\ufffd\ufffd\ufffd\ufffd\u042e\ufffd\r\ufffd\ufffd}2\ufffd\ufffd\ufffd\ufffd9\ufffd\b\ufffdl\ufffdy\ufffd\u0004\ufffds:\u0011\ufffd\te\ufffd\u0017\ufffdvN\ufffd:\ufffdt\ufffd\u0013\ufffd\ufffd{\u001a\f\u0006\ufffd\\.\ufffdx<\ufffd\ufffd\ufffd\ufffdwj\ufffd\ufffdIG\ufffd\u0003S\ufffd\u07e7\ufffd<u:\ufffdd.\ue71a\ufffd\u0019_fw\ufffdWNZ\ufffd\u0014\ufffd\u07cb\ufffd\ufffd\ufffd\u05ecv\u0002?\ufffdZLm\ufffd\u0005]J\u0000\u0000\u0000\u0000IEND\ufffdB`\ufffd",
+    "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "572",
+        "etag": "\"nZmiNyu9WyjvSy6uysjIBQ==\"",
+        "perf": "7402827104",
+        "expires": "Wed, 15 Apr 2026 07:55:09 GMT",
+        "content-type": "image/vnd.microsoft.icon",
+        "last-modified": "Thu, 30 Jan 2025 11:14:24 GMT",
+        "x-transaction-id": "9cf36f32fa8b0de2",
+        "timing-allow-origin": "https://twitter.com, https://mobile.twitter.com",
+        "strict-transport-security": "max-age=631138519",
+        "cross-origin-resource-policy": "cross-origin",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Encoding": "gzip",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 08 May 2025 20:25:43 GMT",
+        "X-Served-By": "cache-pdk-kfty8610064-PDK",
+        "X-Cache": "HIT",
+        "Vary": "Accept-Encoding",
+        "x-tw-cdn": "FT",
+        "Server-Timing": "x-cache;desc=HIT, x-tw-cdn;desc=FT"
+    }
+}

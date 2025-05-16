@@ -1,0 +1,27 @@
+{
+    "status": 200,
+    "content": "\"use strict\";(self.webpackChunk_twitter_responsive_web=self.webpackChunk_twitter_responsive_web||[]).push([[\"loader.richScribeAction\"],{481242:(e,i,t)=>{t.r(i),t.d(i,{richScribeAction:()=>p,richScribeFlushImmediate:()=>u});var r=t(450681),s=t(479506),c=t(942893),d=t(836255),n=t(919022);const o=[],m=Object.freeze({}),p=(e,i=m)=>(t,s,{scribe:c})=>{const d=s(),n=Array.isArray(i.items)?(0,r.Z)(i.items.map((e=>_(e,d)))):o,m={...i,items:n};c.log(e,m)},u=()=>(e,i,{scribe:t})=>{t.flushImmediate()},a=e=>{if(e.disclosure_type&&e.impression_id)return{disclosure_type:e.disclosure_type,impression_id:e.impression_id}},_=(e,i)=>{if(!e.id)return e;switch(e.item_type){case s.Z.ItemType.USER:{const t=n.ZP.select(i,e.id),r=a(e);return t?{...e,...c.Z.getUserItem(t,r)}:e}case s.Z.ItemType.TWEET:{const t=d.Z.selectHydrated(i,e.id),r=a(e);return t?{...e,...c.Z.getTweetItem(t,r,void 0,void 0,e)}:e}default:return e}}}}]);\n//# sourceMappingURL=https://ton.local.twitter.com/responsive-web-internal/sourcemaps/client-web/loader.richScribeAction.372d383a.js.map",
+    "headers": {
+        "Connection": "keep-alive",
+        "Content-Length": "605",
+        "etag": "\"l5/5/+HeZvQDl/pyGpypJA==\"",
+        "perf": "7402827104",
+        "expires": "Tue, 14 Apr 2026 19:53:29 GMT",
+        "content-type": "application/javascript; charset=utf-8",
+        "last-modified": "Mon, 14 Apr 2025 15:54:25 GMT",
+        "content-encoding": "gzip",
+        "x-transaction-id": "a865d70abb2d270c",
+        "timing-allow-origin": "https://twitter.com, https://mobile.twitter.com",
+        "strict-transport-security": "max-age=631138519",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "X-Content-Type-Options": "nosniff",
+        "Accept-Ranges": "bytes",
+        "Date": "Thu, 08 May 2025 20:25:46 GMT",
+        "X-Served-By": "cache-pdk-kfty8610064-PDK",
+        "X-Cache": "HIT",
+        "Vary": "Accept-Encoding",
+        "x-tw-cdn": "FT",
+        "Server-Timing": "x-cache;desc=HIT, x-tw-cdn;desc=FT"
+    }
+}

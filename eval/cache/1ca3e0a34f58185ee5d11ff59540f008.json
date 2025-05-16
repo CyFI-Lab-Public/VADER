@@ -1,0 +1,18 @@
+{
+    "status": 200,
+    "content": "\u0010\u0002\u0010)))))MTIzLjEyOS4xMzEuMjI1OjM1MjA3=\u0003",
+    "headers": {
+        "Connection": "Keep-Alive",
+        "Keep-Alive": "timeout=5, max=100",
+        "x-powered-by": "PHP/7.4.33",
+        "set-cookie": "PHPSESSID=f86202c064661102b72f1c23bd5064bb; path=/; secure",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "cache-control": "no-store, no-cache, must-revalidate",
+        "pragma": "no-cache",
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "38",
+        "content-encoding": "br",
+        "vary": "Accept-Encoding",
+        "date": "Thu, 08 May 2025 20:25:42 GMT"
+    }
+}
