@@ -116,7 +116,58 @@ VADER can be set up either natively on your system or using Docker. Choose the m
 
 VADER uses a recipe-based approach to decode potentially malicious content in web traffic. Here's how to use it:
 
-##### Running VADER with HTML files
+##### E1: Collecting network traffic
+To collect encrypted network traffic for analysis, follow the steps below:
+
+1. **Export the TLS key log file path**:  
+   ```bash
+   export SSLKEYLOGFILE=$HOME/keys.log
+   ```
+
+2. **Identify the active network interface** used by the host. In this example, we assume it is `eth0`.
+
+3. **Start traffic capture with `tcpdump`**, excluding common background traffic (e.g., WireGuard, SSH, ARP):  
+   ```bash
+   sudo tcpdump -i eth0 'not (udp port 51820 or udp port 52072 or tcp port 22 or arp)' -w vader.pcap
+   ```
+
+4. **Launch the browser** (e.g., Chromium):  
+   ```bash
+   chromium
+   ```
+
+5. **Visit the target website** suspected of containing dead drop content. For instance:  
+   `https://slack-files.com/TKM8PQGNP-F08R54MR9PY-ea16d1bc7b`
+
+6. **After browsing, stop both Chromium and `tcpdump`**.
+
+**Expected Output**:
+- A TLS key log file named `keys.log` in the `$HOME` directory.
+- A packet capture file named `vader.pcap` in the working directory where `tcpdump` was executed.
+
+For convenience, you may refer to the example files located at:
+```
+eval/vader.pcap  
+eval/keys.log
+```
+
+These files can be used to test or evaluate the analysis pipeline without repeating the collection steps.
+
+
+##### E2 & E4: Running VADER with PCAP files
+
+```bash
+# Native installation
+python3 eval/pipeline.py --recipe eval/recipe.json --pcap eval/vader.pcap --tls-key eval/keys.log
+
+# Docker with TLS key file
+docker run -it --rm -v $(pwd):/mnt vader python3 /mnt/eval/pipeline.py --recipe /mnt/eval/recipe.json --pcap /mnt/eval/vader.pcap --tls-key /mnt/eval/keys.log
+```
+
+**Expected Output**:  
+Decoded command-and-control (C2) server addresses printed in the terminal.
+
+##### E3 & E4: Running VADER with HTML files
 
 ```bash
 # Native installation
@@ -126,15 +177,8 @@ python3 eval/pipeline.py --recipe eval/recipe.json --html eval/pidoras6.html
 docker run -it --rm -v $(pwd):/mnt vader python3 /mnt/eval/pipeline.py --recipe /mnt/eval/recipe.json --html /mnt/path/to/html/file.html
 ```
 
-##### Running VADER with PCAP files
-
-```bash
-# Native installation
-python3 eval/pipeline.py --recipe eval/recipe.json --pcap eval/vader.pcap --tls-key eval/keys.log
-
-# Docker with TLS key file
-docker run -it --rm -v $(pwd):/mnt vader python3 /mnt/eval/pipeline.py --recipe /mnt/eval/recipe.json --pcap /mnt/eval/vader.pcap --tls-key /mnt/eval/keys.log
-```
+**Expected Output**:  
+Decoded command-and-control (C2) server addresses printed in the terminal.
 
 ##### Creating Custom Recipes
 
